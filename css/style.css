@@ -34,16 +34,14 @@ border-bottom-left-radius: 80px;
     width: 4em;
   }
   
-  #ftco-navbar.transparent {
+  #ftco-navbar.transparent  {
     background-color: rgba(216, 209, 209, 0.705) !important;
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px grey;
     height: 4em;
   }
   
-  #ftco-navbar.transparent .nav-link {
-    color: white !important;
-  }
+  
   
   #ftco-navbar.transparent img {
     width: 3em;
@@ -57,10 +55,17 @@ border-bottom-left-radius: 80px;
   .nav-link {
     color: white !important;
   }
-
- 
+  #ftco-nav a{
+    color: red !important;
+  }
 
   
+ #ftco-nav .dropdown-menu {
+ background-color: #D6D4D1!important;
+  }
+  #ftco-nav .transparent a {
+    color: red;
+  }
   .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -76,7 +81,12 @@ border-bottom-left-radius: 80px;
   background: #000;
 }
 
-.carousel-caption{padding-bottom:24em;}
+.carousel-caption{
+  background-color: rgba(15, 15, 15, 0.609);
+  margin-bottom:20em;
+  margin-right:20em;
+  margin-left:20em;
+}
 
 h2{font-size: 60px;}
 p{padding:10px}
@@ -338,6 +348,7 @@ footer a:hover {
     max-width: 1020px;
     padding: 40px 20px;
     margin: auto;
+    background-color: rgba(15, 15, 15, 0.609);
 }
 
 .testim .arrow {
