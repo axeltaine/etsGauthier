@@ -1,0 +1,317 @@
+  
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  li.nav-item a:hover {
+    color: gray !important;
+  }
+  
+  .nav-link .fa {
+    margin-right: 0.5em;
+  }
+  
+  .nav-link .fas {
+    margin-right: 0.5em;
+  }
+
+  #py-1 {
+    background-color: red !important;
+    color: white;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  #ftco-navbar {
+    background-color: rgb(192, 192, 192)!important;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-bottom-right-radius: 80px;
+border-bottom-left-radius: 80px;
+  }
+  
+  .navbar img {
+    width: 4em;
+  }
+  
+  #ftco-navbar.transparent {
+    background-color: rgba(216, 209, 209, 0.705) !important;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+    height: 4em;
+  }
+  
+  #ftco-navbar.transparent .nav-link {
+    color: white !important;
+  }
+  
+  #ftco-navbar.transparent img {
+    width: 3em;
+  }
+  
+  #ftco-navbar.transparent li.nav-item a:hover {
+    color: gray !important;
+  
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+
+ 
+
+  
+
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background: #000;
+}
+
+.carousel-caption{padding-bottom:80px;}
+
+h2{font-size: 60px;}
+p{padding:10px}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity:0.6;
+}
+
+
+
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+
+
+footer {
+  background-color: red !important;
+  color: #eee;
+}
+
+footer a {
+  color: #eee;
+}
+
+footer a:hover {
+  color: #eee;
+}
+
+
+.rounded {
+  transition: box-shadow .3s;
+}
+
+.rounded:hover{
+  box-shadow: 10px 10px 20px 0 rgba(228, 46, 46, 0.733);
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+
+
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative; }
+
+  
+.ftco-category .category-wrap {
+  display: block;
+  width: 100%;
+  height: 250px; }
+  .ftco-category .category-wrap .text {
+    background: red; }
+    .ftco-category .category-wrap .text h2 {
+      font-size: 18px;
+      font-family: "Poppins", Arial, sans-serif; }
+      .ftco-category .category-wrap .text h2 a {
+        color: #fff; }
+
+.ftco-category .category-wrap-2 {
+  width: 100%; }
+  .ftco-category .category-wrap-2 .text {
+    width: 100%; 
+    background: red;}
+    .ftco-category .category-wrap-2 .text h2 {
+      font-family: "Poppins", Arial, sans-serif;
+      font-size: 18px; }
+      .ftco-category .category-wrap-2 .text h2 a {
+        color: #fff; }
+
+
+      
+.ftco-no-pt {
+  padding-top: 0 !important; }
+
+  .container-fluid {
+         padding-right: 0px;
+     padding-left: 0px;
+  }
+
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+  #button {
+    display: inline-block;
+    background-color: #1E2022;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  #button::after {
+    content: "\2227";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 34px;
+    color: #fff;
+  }
+  
+  #button:hover {
+    cursor: pointer;
+    background-color: rgb(59, 59, 59);
+  }
+  
+  #button:active {
+    background-color: #555 !important;
+  }
+  
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
