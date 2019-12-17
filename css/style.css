@@ -63,6 +63,12 @@ border-bottom-left-radius: 80px;
  #ftco-nav .dropdown-menu {
  background-color: #D6D4D1!important;
   }
+  #ftco-nav .transparent{
+    background-color: rgba(216, 209, 209, 0.705) !important;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+    margin-top: 1.5em;
+}
   #ftco-nav .transparent a {
     color: red;
   }
