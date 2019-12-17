@@ -1,66 +1,77 @@
-  
 html, body {
-    margin: 0;
-    height: 100%;
-  }
-  
-  li.nav-item a:hover {
-    color: gray !important;
-  }
-  
-  .nav-link .fa {
-    margin-right: 0.5em;
-  }
-  
-  .nav-link .fas {
-    margin-right: 0.5em;
-  }
+  margin: 0;
+  height: 100%;
+}
 
-  #py-1 {
-    background-color: red !important;
-    color: white;
-    margin-left: 10em;
-    margin-right: 10em;
-  }
-  #ftco-navbar {
-    background-color: rgb(192, 192, 192)!important;
-    margin-left: 10em;
-    margin-right: 10em;
-    border-bottom-right-radius: 80px;
+li.nav-item a:hover {
+  color: gray !important;
+}
+
+.nav-link .fa {
+  margin-right: 0.5em;
+}
+
+.nav-link .fas {
+  margin-right: 0.5em;
+}
+
+#py-1 {
+  background-color: #E50909 !important;
+  color: white;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+#ftco-navbar {
+  background-color: #D6D4D1!important;
+  margin-left: 10em;
+  margin-right: 10em;
+  border-bottom-right-radius: 80px;
 border-bottom-left-radius: 80px;
-  }
-  
-  .navbar img {
-    width: 4em;
-  }
-  
-  #ftco-navbar.transparent {
-    background-color: rgba(216, 209, 209, 0.705) !important;
-    transition: background-color 1s ease 0s;
-    box-shadow: 0 0 4px grey;
-    height: 4em;
-  }
-  
-  #ftco-navbar.transparent .nav-link {
-    color: white !important;
-  }
-  
-  #ftco-navbar.transparent img {
-    width: 3em;
-  }
-  
-  #ftco-navbar.transparent li.nav-item a:hover {
-    color: gray !important;
-  
-  }
-  
-  .nav-link {
-    color: white !important;
-  }
+}
 
- 
+.navbar img {
+  width: 4em;
+}
+
+#ftco-navbar.transparent  {
+  background-color: rgba(216, 209, 209, 0.705) !important;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+  height: 4em;
+}
+
+
+
+#ftco-navbar.transparent img {
+  width: 3em;
+}
+
+#ftco-navbar.transparent li.nav-item a:hover {
+  color: gray !important;
+
+}
+
+.nav-link {
+  color: white !important;
+}
+#ftco-nav a{
+  color: red !important;
+}
+
 
   
+ #ftco-nav .dropdown-menu {
+  background-color: #D6D4D1!important;
+   }
+   #ftco-nav .transparent{
+     background-color: rgba(216, 209, 209, 0.705) !important;
+     transition: background-color 1s ease 0s;
+     box-shadow: 0 0 4px grey;
+     margin-top: 1.5em;
+ }
+   #ftco-nav .transparent a {
+     color: red;
+   }
 
 .item,
 .active {
@@ -157,8 +168,10 @@ p{padding:10px}
 
 
 
+
 footer {
-  background-color: red !important;
+  background-color: #E50909 !important;
+  text-align: center!important;
   color: #eee;
 }
 

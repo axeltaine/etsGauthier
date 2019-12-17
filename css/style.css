@@ -924,7 +924,7 @@ footer a:hover {
 		line-height: 25px;
 	}
   .carousel-caption {
-     padding-bottom: 14em; 
+     padding-bottom: 10em; 
 }
 #py-1 {
    margin-left: 0em; 
@@ -950,5 +950,18 @@ footer a:hover {
 .category-wrap-2{
   height: 15em;
     margin-bottom: 1em;
+}
+.carousel-caption {
+  margin-bottom: 1em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+}
+@media (min-width: 500px)  and (max-width: 1300px) {
+
+.carousel-caption {
+  margin-bottom: 15em;
+  margin-right: 10em;
+  margin-left: 10em;
 }
 }
