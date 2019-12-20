@@ -671,7 +671,7 @@ button {
 
 .wpcf7-submit:hover,
 button:hover {
-    background-color: #a2c138
+    background-color: red
 }
 
 .wpcf7-submit:hover a,
@@ -697,7 +697,7 @@ h2 {
 }
 
 .icon-angle-right {
-    color: #a2c138;
+    color: red;
     font-size: 12px;
     margin-right: 9px;
     transition: margin-right .3s ease
@@ -925,7 +925,7 @@ footer.site-footer .navigation-footer .widget-column .menu>li>a {
 }
 
 footer.site-footer .navigation-footer .widget-column .menu>li>a:before {
-    color: #a2c138;
+    color: red;
     content: "\E902";
     font-family: icomoon !important;
     font-style: normal;
@@ -984,7 +984,7 @@ footer #button-to-top span:before {
 }
 
 footer #button-to-top.show {
-    background-color: #a2c138
+    background-color: red
 }
 
 header.site-header section .container-page {
@@ -1029,7 +1029,7 @@ header #site-navigation ul li {
 
 header #site-navigation ul li:after {
     content: "|";
-    color: #a2c138;
+    color: red;
     display: inline-block;
     font-size: 14px;
     position: absolute;
@@ -1060,7 +1060,7 @@ header #site-navigation ul li a {
 }
 
 header #site-navigation ul li a:hover {
-    color: #a2c138
+    color: red
 }
 
 .single-post header #top-menu #menu-item-36 a {
@@ -1080,7 +1080,7 @@ header .header-search {
 }
 
 header .header-search:hover {
-    background: #a2c138
+    background: red
 }
 
 header .header-search:hover span {
@@ -1152,7 +1152,7 @@ section#image_head .container-page {
 }
 
 section#image_head .container-page:after {
-    background-color: #a2c138;
+    background-color: red;
     bottom: -2px;
     content: "";
     height: 3px;
@@ -1245,7 +1245,7 @@ section#front_raccourcis ul li {
 }
 
 section#front_raccourcis ul li .hover {
-    background: #a2c138;
+    background: red;
     height: 0;
     left: -1px;
     position: absolute;
@@ -1258,7 +1258,7 @@ section#front_raccourcis ul li .hover {
 section#front_raccourcis ul li:after,
 section#front_raccourcis ul li:first-child:before {
     content: "";
-    background-color: #a2c138;
+    background-color: red;
     display: inline-block;
     width: 1px;
     height: 50px;
@@ -1309,7 +1309,7 @@ section#front_raccourcis ul li a:hover {
 section h2.front_title {
     font-size: 48px;
     font-size: 3rem;
-    color: #a2c138;
+    color: red;
     line-height: 42px;
     margin: 80px 0 35px;
     text-transform: uppercase
@@ -1423,7 +1423,7 @@ section#front_projet .front_projet_background {
 
 .front_projet_liste_lien li .NoLInk .icon-angle-right,
 .front_projet_liste_lien li a .icon-angle-right {
-    color: #a2c138;
+    color: red;
     font-size: 12px;
     margin-right: 9px;
     margin-top: 2px;
@@ -1472,7 +1472,7 @@ section#front_aide #front_aide_conseil li:hover span {
 
 section#front_aide #front_aide_conseil li span {
     display: block;
-    color: #a2c138;
+    color: red;
     font-size: 30px;
     left: 0;
     margin-right: 20px;
@@ -1807,7 +1807,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
 #side-content-acf blockquote,
 .entry-content blockquote {
     background-color: #f4f4f4;
-    border-left: 10px solid #a2c138;
+    border-left: 10px solid red;
     border-right: 1px solid #e1dfdf;
     border-top: 1px solid #e1dfdf;
     border-bottom: 1px solid #e1dfdf;
@@ -2002,7 +2002,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
 
 #side-content-acf .content-bloc-image a:hover .content-bloc-image-legende,
 .entry-content .content-bloc-image a:hover .content-bloc-image-legende {
-    color: #a2c138
+    color: red
 }
 
 #side-content-acf .content-bloc-image a:hover .icon-angle-right,
@@ -2062,7 +2062,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
 
 #side-content-acf .content-bloc-telechargement .liste-telechargement li.item-telechargement .container a .container-icon .icon-download,
 .entry-content .content-bloc-telechargement .liste-telechargement li.item-telechargement .container a .container-icon .icon-download {
-    background: #a2c138;
+    background: red;
     color: #fff;
     padding: 7px;
     position: relative;
@@ -2103,7 +2103,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
 
 #side-content-acf .content-bloc-telechargement .liste-telechargement li.item-telechargement .container a:hover .container-info p:first-child,
 .entry-content .content-bloc-telechargement .liste-telechargement li.item-telechargement .container a:hover .container-info p:first-child {
-    color: #a2c138
+    color: red
 }
 
 #side-content-acf .content-bloc-telechargement .liste-telechargement li.item-telechargement .container a:hover .container-icon span:before,
@@ -2234,7 +2234,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
 }
 
 .content-bloc-accordeon .accordion li .toggle:before {
-    color: #a2c138
+    color: red
 }
 
 .content-bloc-accordeon .accordion li .toggle:after {
@@ -2335,7 +2335,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
 }
 
 .sidebar-acf #side-contact {
-    background-color: #a2c138;
+    background-color: red;
     border-bottom: 5px solid #5a7207
 }
 
@@ -2438,7 +2438,7 @@ form.wpcf7-form div.wpcf7-validation-errors {
 }
 
 .sidebar-acf #side-nav nav ul li a:hover {
-    color: #a2c138
+    color: red
 }
 
 .sidebar-acf #side-nav nav ul li a:hover .icon-angle-right {
@@ -2502,7 +2502,7 @@ header #mobil_menu_btn .menu_icon_bar {
 .mobil_menu_overlay span {
     font-size: 2rem;
     position: relative;
-    background: #a2c138;
+    background: red;
     font-weight: 400;
     display: block;
     padding: 16px
@@ -2559,7 +2559,7 @@ header #mobil_menu_btn .menu_icon_bar {
 }
 
 .front_projet_infobulle .front_projet_infobulle_container .front_projet_infobulle_btn .front_projet_infobulle_vert {
-    background-color: #a2c138;
+    background-color: red;
     display: inline-block;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -2577,7 +2577,7 @@ header #mobil_menu_btn .menu_icon_bar {
 }
 
 .front_projet_infobulle .front_projet_infobulle_container .front_projet_infobulle_btn .front_projet_infobulle_vert:hover {
-    background-color: #8dab38
+    background-color: red
 }
 
 .front_projet_infobulle .front_projet_infobulle_container .front_projet_infobulle_btn .front_projet_infobulle_vert i {
@@ -2654,7 +2654,7 @@ header #mobil_menu_btn .menu_icon_bar {
     content: "";
     width: 2px;
     height: 100px;
-    background-color: #a2c138;
+    background-color: red;
     position: absolute;
     left: 0
 }
@@ -2832,7 +2832,7 @@ header #mobil_menu_btn .menu_icon_bar {
 }
 
 .item_actu_container .item_actu .moretag {
-    background-color: #a2c138;
+    background-color: red;
     bottom: 0;
     line-height: 0;
     padding: 9px;
@@ -3253,7 +3253,7 @@ header #mobil_menu_btn .menu_icon_bar {
     }
 
     header.site-header #site-navigation.open #top-menu .menu-item a:before {
-        color: #a2c138;
+        color: red;
         content: "\E902";
         font-family: icomoon;
         font-size: 18px;
@@ -3526,7 +3526,7 @@ header #mobil_menu_btn .menu_icon_bar {
     }
 
     .site-main-home section#image_head .container-page:after {
-        background-color: #a2c138
+        background-color: red
     }
 
     .site-main-home section#image_head .container-page h2 {
