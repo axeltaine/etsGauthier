@@ -12,6 +12,7 @@
   position: absolute;
   background: #BCDAF4;
  }
+ 
  @-webkit-keyframes animate-svg-fill-1 {
     0% {
       fill: transparent;
