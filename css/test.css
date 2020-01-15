@@ -1813,3 +1813,13 @@
             animation: animate-svg-fill-72 0.7s ease-in 7.9s both;
   }
   
+  @media all and (max-width: 500px) {
+    #Calque_1 {
+      margin-top: 32.5em !important;
+      margin-left: 16em !important;
+    }
+    #svg2 {
+      margin-top: 9.5em !important;
+      margin-left: 13.7em !important;
+    }
+  }
